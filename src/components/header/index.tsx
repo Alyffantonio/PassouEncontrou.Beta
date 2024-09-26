@@ -1,5 +1,7 @@
 import { View, Pressable, Text } from "react-native";
 import { Ionicons, Feather } from "@expo/vector-icons";
+import React from 'react';
+
 export function Header() {
     return(
         <View className=" w-full flex flex-row items-center justify-between">

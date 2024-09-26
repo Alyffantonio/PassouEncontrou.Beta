@@ -1,5 +1,7 @@
 import { View, TextInput } from 'react-native';
 import {Feather} from '@expo/vector-icons';
+import React from 'react';
+
 
 export  function Search() {
     return(

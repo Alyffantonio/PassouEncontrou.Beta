@@ -1,5 +1,7 @@
 import { View, Pressable, Text, Image  } from 'react-native';
 import PagerView from 'react-native-pager-view';
+import React from 'react';
+
 export function Banner() {
     return(
         <View className='w-full h-36 md:h-60 rounded-2x1 mt-5 mb-4'>
