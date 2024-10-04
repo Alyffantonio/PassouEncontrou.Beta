@@ -6,6 +6,8 @@ import { Section } from "../components/section";
 import React from 'react';
 import Constants from "expo-constants"
 import { Trending } from "../components/trending";
+import { Restaurants  } from "../components/restaurants";
+import { RestaurantVerticalList } from "../components/list";
 
 const statusBarHeigth = Constants.statusBarHeight;
 
@@ -36,6 +38,26 @@ export default function Index() {
 
 
       <Trending/>
+
+      <Section
+        name="Famoso no PassouEncontrou"
+        label="Veja mais"
+        action={()=> console.log("Clicou no botao")}
+        size="text-xl"
+      />
+
+      <Restaurants/>
+
+      <Section
+        name="Vendedores Próximos
+        "
+        label="Veja todos"
+        action={()=> console.log("Clicou no restaurante")}
+        size="text-xl"
+      />
+
+      <RestaurantVerticalList/>
+
 
       
 
